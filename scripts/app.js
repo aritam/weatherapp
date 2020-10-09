@@ -30,12 +30,6 @@ const updateUI = (data) => {
   let timeSrc = weather.IsDayTime ? 'img/day.svg' : 'img/night.svg';
   time.setAttribute('src', timeSrc);
 
-  // let timeSrc = null;
-  // if (weather.IsDayTime) {
-  //   timeSrc = 'img/day.svg';
-  // } else {
-  //   timeSrc = 'img/night.svg';
-  // }
 
   //remove d-none class
   if (card.classList.contains('d-none')) {
